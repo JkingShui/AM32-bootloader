@@ -12,9 +12,9 @@
 #define RAM_SIZE 16*1024
 
 /*
-  32k flash
+  64k flash
  */
-#define BOARD_FLASH_SIZE 32
+#define BOARD_FLASH_SIZE 64
 
 static inline void gpio_mode_set_input(uint32_t pin, uint32_t pull_up_down)
 {
